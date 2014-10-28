@@ -1,0 +1,5 @@
+class AddQuantityToOlineItems < ActiveRecord::Migration
+  def change
+    add_column :oline_items, :quantity, :integer, default: 1
+  end
+end
