@@ -1,7 +1,6 @@
 require 'test_helper'
 
-include CurrentCart
-before_action :set_cart, only: [:create]
+
 class LineItemsControllerTest < ActionController::TestCase
   setup do
     @line_item = line_items(:one)
