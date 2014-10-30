@@ -1,0 +1,4 @@
+class RemoveTableLuineItems < ActiveRecord::Migration
+  def change
+  end
+end
