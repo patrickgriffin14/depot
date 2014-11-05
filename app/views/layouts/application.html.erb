@@ -15,8 +15,11 @@
  
  <div id="columns">
   <div id="side">
-    <ul>
-        <%= Time.now %>
+   <div id="cart">
+        <%= render @cart %>
+        </div>
+      <ul>
+	<%= Time.now %>
 	<li><a href="http://localhost:3000/">Home</a></li>
 	<li><a href="http://www..../faq">Questions</a></li>
 	<li><a href="http://www..../news">News</a></li>
